@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.projettp9.AffichageController">
+   <Label fx:id="finalNameLabel" layoutX="56.0" layoutY="62.0" prefHeight="90.0" prefWidth="514.0" text="Votre nom:">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Label>
+   <Label fx:id="finalMailLabel" layoutX="56.0" layoutY="223.0" prefHeight="90.0" prefWidth="514.0" text="Votre adresse mail:">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Label>
+</AnchorPane>
