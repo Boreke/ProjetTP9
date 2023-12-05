@@ -44,10 +44,10 @@
          <children>
             <Label layoutX="117.0" layoutY="82.0" prefHeight="35.0" prefWidth="142.0" text="adresse e-mail:" />
             <Label layoutX="117.0" layoutY="182.0" prefHeight="35.0" prefWidth="142.0" text="Mot de passe" />
-            <TextField layoutX="320.0" layoutY="82.0" prefHeight="35.0" prefWidth="252.0" />
-            <TextField layoutX="320.0" layoutY="182.0" prefHeight="35.0" prefWidth="252.0" />
-            <Button layoutX="117.0" layoutY="301.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="142.0" text="sign in" />
-            <Button layoutX="375.0" layoutY="301.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="142.0" text="log in" />
+            <TextField fx:id="mailField" layoutX="320.0" layoutY="82.0" prefHeight="35.0" prefWidth="252.0" />
+            <TextField fx:id="passwordField" layoutX="320.0" layoutY="182.0" prefHeight="35.0" prefWidth="252.0" />
+            <Button fx:id="signInButton" layoutX="117.0" layoutY="301.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="142.0" text="sign in" onAction="#onSignInButtonClick"/>
+            <Button fx:id="logInButton" layoutX="375.0" layoutY="301.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="142.0" text="log in" />
          </children>
     </AnchorPane>
   </children>

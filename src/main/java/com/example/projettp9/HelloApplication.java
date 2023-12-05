@@ -10,7 +10,7 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        exercice1(stage);
+        exercice2(stage);
     }
 
     public static void main(String[] args) {
@@ -21,6 +21,13 @@ public class HelloApplication extends Application {
 
         Scene scene = new Scene(fxmlLoader.load(), 600,400);
         stage.setTitle("inscriptionScene");
+        stage.setScene(scene);
+        stage.show();
+    }
+    public static void exercice2(Stage stage)throws IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("WelcomeScene.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 600,400);
+        stage.setTitle("WelcomeScene");
         stage.setScene(scene);
         stage.show();
     }

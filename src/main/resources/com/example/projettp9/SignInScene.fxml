@@ -14,7 +14,7 @@
             <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
          </padding>
       </Label>
-      <Label layoutX="109.0" layoutY="191.0" prefHeight="32.0" text="Mot de Passe">
+      <Label layoutX="106.0" layoutY="191.0" prefHeight="32.0" text="Mot de Passe">
          <padding>
             <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
          </padding>
@@ -37,11 +37,11 @@
             <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
          </padding>
       </Label>
-      <TextField layoutX="300.0" layoutY="57.0" prefHeight="32.0" />
-      <TextField layoutX="300.0" layoutY="105.0" prefHeight="32.0" />
-      <TextField layoutX="300.0" layoutY="152.0" prefHeight="32.0" />
-      <TextField layoutX="300.0" layoutY="199.0" prefHeight="32.0" />
-      <TextField layoutX="300.0" layoutY="249.0" prefHeight="32.0" />
-      <Button layoutX="202.0" layoutY="329.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="150.0" text="Sign in" />
+      <TextField fx:id="nameField" layoutX="300.0" layoutY="57.0" prefHeight="32.0" />
+      <TextField fx:id="phoneField" layoutX="300.0" layoutY="105.0" prefHeight="32.0" />
+      <TextField fx:id="mailField" layoutX="300.0" layoutY="152.0" prefHeight="32.0" />
+      <TextField fx:id="passwordField" layoutX="300.0" layoutY="199.0" prefHeight="32.0" />
+      <TextField fx:id="confirmPasswordField" layoutX="300.0" layoutY="249.0" prefHeight="32.0" />
+      <Button fx:id="confirmButton" layoutX="202.0" layoutY="329.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="150.0" text="Sign in" />
    </children>
 </AnchorPane>
